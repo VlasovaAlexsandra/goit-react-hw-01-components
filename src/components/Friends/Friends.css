@@ -28,7 +28,11 @@
 }
 
 .online {
-    /* composes: offline; */
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: auto 0;
     background-color: green;
 }
 
